@@ -1,0 +1,3 @@
+REM zip web-ext-artifacts/search_text_at_guskiss-1.1.xpi icons/* background.js manifest.json 
+"c:\program files\7-zip\7z.exe" a -tZIP web-ext-artifacts/search_text_at_guskiss-1.1.xpi icons/* background.js manifest.json
+REM about:config xpinstall.signatures.required=false
